@@ -92,11 +92,11 @@
                       >Add Client</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-muted" href="#">Assign Service</a>
+                   <li class="nav-item">
+                    <a class="nav-link" href="./assignService.php">Assign Service</a>
                   </li>
-                  <li class="nav-item active">
-                    <a class="nav-link text-muted" href="#">Modify Service</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./createService.php">Modify Service</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-muted" href="#">Create Package</a>
@@ -288,66 +288,7 @@
                           </th>
                         </thead>
                         <tbody id="table">
-                          <tr>
-                            <td>
-                              Dakota Rice
-                            </td>
-                            <td>
-                              434534
-                            </td>
-                            <td>
-                              Niger
-                            </td>
-                            <td>
-                              01/05/18
-                            </td>
-                            <td class="text-primary">
-                              <button
-                                type="button"
-                                class="btn btn-primary btn-sm"
-                              >
-                                Edit
-                              </button>
-                            </td>
-                            <td class="text-primary">
-                              <button
-                                type="button"
-                                class="btn btn-primary btn-sm"
-                              >
-                                Delete
-                              </button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              Minerva Hooper
-                            </td>
-                            <td>
-                              561336
-                            </td>
-                            <td>
-                              Curaçao
-                            </td>
-                            <td>
-                              02/08/13
-                            </td>
-                            <td class="text-primary">
-                              <button
-                                type="button"
-                                class="btn btn-primary btn-sm"
-                              >
-                                Edit
-                              </button>
-                            </td>
-                            <td class="text-primary">
-                              <button
-                                type="button"
-                                class="btn btn-primary btn-sm"
-                              >
-                                Delete
-                              </button>
-                            </td>
-                          </tr>
+                         
                         </tbody>
                       </table>
                     </form>
