@@ -60,7 +60,7 @@ if( !empty($json_data) )
 
         if ($Client_Name!= "")
         {
-            $check="INSERT INTO `client`( `fullname`, `Client_Code`, `Client_SPOC`, 
+            $check="INSERT INTO `client`( `Client_Name`, `Client_Code`, `Client_SPOC`, 
             `country`, `State`, `city`, `Zip_Code`, `Contact_Number`, `email`, `App_Response_Time`, `Inv_Address`,
              `Inv_Bank`, `Inv_Due_Days`, `Inv_Code`, `Contact_Applicant`, `Is_Bulk_Upload`, `Is_Prin_Merge`, `Is_GSTIN`, 
              `Is_Package`, `Is_Cancelled_Report`, `Is_SEZ`, `Is_LOB_Mapping`, `Contact_Aggregator`, `Email_ID`,
